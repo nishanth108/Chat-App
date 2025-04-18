@@ -1,0 +1,9 @@
+.login {
+  min-height: 100vh;
+  background: url(C:\Users\nisha\OneDrive\Desktop\chat-app\public\background.png)
+    no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
