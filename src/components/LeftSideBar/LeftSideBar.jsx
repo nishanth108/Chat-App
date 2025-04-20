@@ -11,19 +11,23 @@ const LeftSideBar = () => {
             <img src={assets.menu_icon} alt="" />
           </div>
         </div>
-        <div className="is-search">
+        <div className="ls-search">
           <img src={assets.search_icon} alt="" />
           <input type="text" placeholder="Seach here" />
         </div>
       </div>
-      <div className="is-list">
-        <div className="friends">
-          <img src={assets.profile_img} alt="" />
-          <div>
-            <p>Nishanth</p>
-            <span>Hello, how are you</span>
-          </div>
-        </div>
+      <div className="ls-list">
+        {Array(12)
+          .fill("")
+          .map((item, index) => (
+            <div key={index} className="friends">
+              <img src={assets.profile_img} alt="" />
+              <div>
+                <p>Nishanth</p>
+                <span>Hello, how are you</span>
+              </div>
+            </div>
+          ))}
       </div>
     </div>
   );
