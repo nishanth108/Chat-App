@@ -92,3 +92,42 @@
   color: white;
   opacity: 1;
 }
+
+.ls-nav .menu {
+  position: relative;
+  padding: 10px;
+}
+.menu .sub-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 130px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+
+  color: black;
+  display: none;
+}
+
+.menu:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu hr {
+  border: none;
+  background-color: #a4a4a4;
+  height: 1px;
+  margin: 8px 0px;
+}
+
+.sub-menu p {
+  font-size: 13px;
+  padding: 5px 0px;
+  cursor: pointer;
+  color: black;
+}
+
+.sub-menu p:nth-child(3) {
+  color: red;
+ }

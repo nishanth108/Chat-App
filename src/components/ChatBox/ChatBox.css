@@ -2,6 +2,7 @@
   width: 75vh;
   position: relative;
   background-color: #f1f5f1;
+  max-height: 75vh;
 }
 
 .chat-user {
